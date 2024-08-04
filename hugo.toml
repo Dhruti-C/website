@@ -1,5 +1,5 @@
 title = "My cool new Blog"
-baseURL = "https://1313-dhrutic-website-cvbf8sh5dre.ws-us115.gitpod.io/"
+baseURL = "https://dhrutic.com/"
 
 [module]
   [[module.imports]]
