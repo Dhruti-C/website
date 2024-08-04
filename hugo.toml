@@ -27,7 +27,7 @@ disqusShortname = ""
   js_modules = []
 
   # Description and metadata for the search engines
-  author = "Lednerb"
+  author = "Dhruti"
   description = "Bilberry Premium Theme for Hugo."
   keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,syntax highlighting,premium,shortcuts"
 
@@ -91,7 +91,7 @@ disqusShortname = ""
     overlayIcon = "fa-home"
 
     # always display the top navigation (with pages and search) on non-mobile screens
-    permanentTopNav = false
+    permanentTopNav = true
 
     # always display the top navigation when scrolling
     # works only with permanentTopNav = true
@@ -132,7 +132,7 @@ disqusShortname = ""
     amountCategoriesInFooter = 7
 
     # show a language chooser in the footer
-    showFooterLanguageChooser = true
+    showFooterLanguageChooser = false
 
     # social media profile urls for the footer links
     showSocialMedia = true
@@ -152,10 +152,10 @@ disqusShortname = ""
     archiveDateGrouping = "2006-01"
 
     # credits line configuration
-    copyrightBy = "by Lednerb"
+    copyrightBy = "by Dhruti"
     copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
     copyrightYearOverride = "2017"
-    copyrightUrl = "https://github.com/Lednerb"
+    copyrightUrl = "/"
     creditsText = "Bilberry Hugo Theme"
     creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
 
@@ -169,11 +169,11 @@ disqusShortname = ""
 [languages]
   [languages.en]
     weight = 1
-  [languages.de]
-    weight = 2
-    title = "Mein cooler neuer Blog"
-    [languages.de.params]
-      subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
+  # [languages.de]
+  #   weight = 2
+  #   title = "Mein cooler neuer Blog"
+  #   [languages.de.params]
+  #     subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
